@@ -24,7 +24,7 @@ apply plugin: "org.shipkit.shipkit-changelog" //https://github.com/shipkit/shipk
 tasks.named("generateChangelog") {
   previousRevision = project.ext.'shipkit-auto-version.previous-tag'
   githubToken = System.getenv("GITHUB_TOKEN")
-  repository = "linkedin/iceberg"
+  repository = "ljfgem/iceberg"
 }
 
 apply plugin: "org.shipkit.shipkit-github-release" //https://github.com/shipkit/shipkit-changelog
