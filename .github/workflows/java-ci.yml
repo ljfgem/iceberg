@@ -43,10 +43,10 @@ jobs:
         with:
           java-version: 1.8
 
-      - name: 3. Perform build
-        run: ./gradlew build
+      # - name: 3. Perform build
+      #   run: ./gradlew build
 
-      - name: 4. Perform release
+      - name: 3. Perform release
         # Release job, only for pushes to the main development branch
         if: github.event_name == 'push'
           && github.ref == 'refs/heads/auto_release_test'
