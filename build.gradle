@@ -61,7 +61,7 @@ dependencyRecommendations {
 }
 
 allprojects {
-  group = "com.linkedin.iceberg"
+  group = "com.ljfgem.iceberg"
   repositories {
     mavenCentral()
     mavenLocal()
